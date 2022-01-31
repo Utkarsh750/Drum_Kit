@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./videoblocks-drum-set-on-black-background_hvgl57ksx_thumbnail-full01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.key{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(22, 16, 16);
+    transition: all 0.07s;
+    border: 5px solid tomato;
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    text-align: center;
+    background: rgb(155, 135, 135);
+    text-shadow: 0 1 15px black;
+    margin: 16px;
+    padding: 16px 8px;
+    color: rgb(29, 23, 23);
+    text-align: center;
+}
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+kbd{
+    font-size: 40px;
+    display: block;
+    /* align-items: center;
+    justify-content: center; */
+}
+.sound{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(41, 39, 36);
+}
+.playing{
+    transform: scale(1.1);
+    border-color: red;
+    box-shadow: 0 0 12px white;
+}
